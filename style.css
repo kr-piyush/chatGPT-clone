@@ -65,7 +65,7 @@ body {
     background-color: rgb(211, 191, 155);
     font-size: 0.85rem;
     color: black;
-    padding: 1.2px 6px;
+    padding: 3px 12px;
     border-radius: 5px;
 }
 
@@ -74,6 +74,15 @@ body {
     border-top: 1px solid hsla(0,0%,100%,.2);
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name-icon img {
@@ -195,7 +204,7 @@ input:focus {
     justify-content: center;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    background-color: #202123;
+    background-color: #43444b;
 }
 
 .end {
