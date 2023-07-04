@@ -39,7 +39,7 @@ body {
     border-radius: 7px;
 }
 
-.border:hover, .list-container-lower:hover {
+.border:hover, .list-container-lower:hover, .new-chat:hover {
     background-color: #2f2f35;
 }
 
@@ -49,6 +49,13 @@ body {
     align-items: center;
     height: 44px;
     width: 44px;
+}
+
+.new-chat {
+    padding: 1rem;
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 7px;
+    margin: 10px;
 }
 
 .list-container {

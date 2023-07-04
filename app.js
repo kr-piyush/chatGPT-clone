@@ -1,11 +1,12 @@
 let addChat =  document.querySelector(".list-container")
-let addChatCont = document.querySelector("left-main-top")
+let addCont =  document.querySelector(".left-main-top")
 let exampsC = document.querySelectorAll(".examp")
+let inputEl = document.querySelector(".input")
 
 addChat.addEventListener("click", function() {
-alert("add new chat")
+    addCont.innerHTML += `<div class="new-chat">Chat 1</div>`
 })
 
-exampsC.addEventListener("click", function() {
-    alert("push to input")
-})
+function push() {
+    inputEl.value = "push inside the input"
+}

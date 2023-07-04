@@ -22,7 +22,7 @@
                     <div class="add icon">
                         <i class="fa-solid fa-plus"></i>
                     </div>
-                    <div class="new-chat">New chat</div>
+                    <div class="">New chat</div>
                 </div>
                 <div class="window border">
                     <i class="fa-solid fa-bars"></i>
@@ -37,7 +37,7 @@
                     <div class="profile-icon">
                         <i class="fa-regular fa-user"></i>
                     </div>
-                    <div class="new-chat">Upgrade to Plus</div>
+                    <div class="">Upgrade to Plus</div>
                 </div>
                 <div class="new-button">NEW</div>
             </div>
@@ -70,11 +70,11 @@
                         <div class="sun icon"><i class="fa-solid fa-sun"></i></div>
                         <div style="font-size: 18px;">Examples</div>
                     </div>
-                    <div class="cont1 box examps">
+                    <div class="cont1 box examps" onclick="push()">
                         "Explain quantum computing in simple terms"
                     </div>
-                    <div class="cont2 box examps">"Got any creative idea for 10 year old's birthday?"</div>
-                    <div class="cont3 box examps">"How do I make a HTTP request in Javascript?"</div>
+                    <div class="cont2 box examps" onclick="push()">"Got any creative idea for 10 year old's birthday?"</div>
+                    <div class="cont3 box examps" onclick="push()">"How do I make a HTTP request in Javascript?"</div>
                 </div>
                 <div class="hero-container">
                     <div class="examp box box1">
@@ -102,7 +102,7 @@
 
             <div class="main-right-bottom">
                 <div class="input-cont">
-                    <input type="text" class="input" placeholder="Send a message.">
+                    <input type="text" class="input" id="input" placeholder="Send a message.">
                     <div class="enter-button"><i class="material-icons">send</i></div>
                 </div>
                 <div class="end">Free Research Preview. ChatGFT may produce inaccurate information about people, places, or facts. <a href="./">ChatGFT May 24 Version</a></div>
