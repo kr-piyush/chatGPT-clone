@@ -170,6 +170,10 @@ h1 {
     border-radius: 7px;
 }
 
+.cont1:hover, .cont2:hover, .cont3:hover {
+    background-color: #575861;
+}
+
 /* main right bottom */
 
 .main-right-bottom {
