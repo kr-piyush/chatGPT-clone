@@ -7,7 +7,7 @@
     font-size: 14px;
 }
 
-body {
+.page-container {
     display: flex;
 }
 
@@ -15,7 +15,8 @@ body {
 
 .left-main {
     height: 100vh;
-    width: 17%;
+    width: 260px;
+    flex-shrink: 0;
     background-color: #202123;
     display: flex;
     flex-direction: column;
@@ -104,8 +105,8 @@ body {
 /* riight main */
 
 .right-main {
+    flex-grow: 1;
     height: 100vh;
-    width: 83%;
     background-color: #353740;
     display: flex;
     justify-content: center;

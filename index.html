@@ -16,104 +16,104 @@
 </head>
 
 <body>
-
-    <div class="left-main">
-        <div class="left-main-top">
-            <div class="list-container-add">
-                <div class="list-container border">
-                    <div class="add icon">
-                        <i class="fa-solid fa-plus"></i>
+    <div class="page-container">
+        <div class="left-main">
+            <div class="left-main-top">
+                <div class="list-container-add">
+                    <div class="list-container border">
+                        <div class="add icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="">New chat</div>
                     </div>
-                    <div class="">New chat</div>
+                    <div class="window border">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
-                <div class="window border">
-                    <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- lower container -->
+            <div class="left-main-bottom">
+                <div class="list-container-lower">
+                    <div class="list-container">
+                        <div class="profile-icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="">Upgrade to Plus</div>
+                    </div>
+                    <div class="new-button">NEW</div>
+                </div>
+                <div class="list-container-lower">
+                    <div class="list-container">
+                        <div class="name-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdo1NaV6j8OyLvNohu4CVu3f3Thf2c33jYg&usqp=CAU"
+                                alt="">
+                        </div>
+                        <div class="name">Piyush Kr</div>
+                    </div>
+                    <div class="dot-icon">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- lower container -->
-        <div class="left-main-bottom">
-            <div class="list-container-lower">
-                <div class="list-container">
-                    <div class="profile-icon">
-                        <i class="fa-regular fa-user"></i>
-                    </div>
-                    <div class="">Upgrade to Plus</div>
+
+
+        <div class="right-main">
+            <div class="main-right-container">
+                <div class="main-right-top">
+                    <h1>ChatGFT</h1>
                 </div>
-                <div class="new-button">NEW</div>
-            </div>
-            <div class="list-container-lower">
-                <div class="list-container">
-                    <div class="name-icon">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdo1NaV6j8OyLvNohu4CVu3f3Thf2c33jYg&usqp=CAU"
-                            alt="">
+
+                <div class="main-right-middle hero">
+                    <div class="hero-container">
+                        <div class="examp box box1">
+                            <div class="sun icon"><i class="fa-solid fa-sun"></i></div>
+                            <div style="font-size: 18px;">Examples</div>
+                        </div>
+                        <div class="cont1 box examps" onclick="push()">
+                            "Explain quantum computing in simple terms"
+                        </div>
+                        <div class="cont2 box examps" onclick="push()">"Got any creative idea for 10 year old's birthday?"
+                        </div>
+                        <div class="cont3 box examps" onclick="push()">"How do I make a HTTP request in Javascript?"</div>
                     </div>
-                    <div class="name">Piyush Kr</div>
+                    <div class="hero-container">
+                        <div class="examp box box1">
+                            <div class="bolt icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div style="font-size: 18px;">Capabilities</div>
+                        </div>
+                        <div class="cont1 box">
+                            Remembers what user said earlier in the conversation
+                        </div>
+                        <div class="cont2 box">Allows user to provide follow-up corrections</div>
+                        <div class="cont3 box">Trained to decline inappropriate requests</div>
+                    </div>
+                    <div class="hero-container">
+                        <div class="examp box box1">
+                            <div class="limi icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                            <div style="font-size: 18px;">Limitations</div>
+                        </div>
+                        <div class="cont1 box">
+                            May occasionally generate incorrect information
+                        </div>
+                        <div class="cont2 boxs">May occasionally produce harmful instructions or biased content</div>
+                        <div class="cont3 box">Limited knowledge of world and events after 2021</div>
+                    </div>
                 </div>
-                <div class="dot-icon">
-                    <i class="fa-solid fa-ellipsis"></i>
+
+                <div class="main-right-bottom">
+                    <div class="input-cont">
+                        <input type="text" class="input" id="input" placeholder="Send a message.">
+                        <div class="enter-button"><i class="material-icons">send</i></div>
+                    </div>
+                    <div class="end">Free Research Preview. ChatGFT may produce inaccurate information about people, places,
+                        or facts. <a href="./">ChatGFT May 24 Version</a></div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-    <div class="right-main">
-        <div class="main-right-container">
-            <div class="main-right-top">
-                <h1>ChatGFT</h1>
-            </div>
-
-            <div class="main-right-middle hero">
-                <div class="hero-container">
-                    <div class="examp box box1">
-                        <div class="sun icon"><i class="fa-solid fa-sun"></i></div>
-                        <div style="font-size: 18px;">Examples</div>
-                    </div>
-                    <div class="cont1 box examps" onclick="push()">
-                        "Explain quantum computing in simple terms"
-                    </div>
-                    <div class="cont2 box examps" onclick="push()">"Got any creative idea for 10 year old's birthday?"
-                    </div>
-                    <div class="cont3 box examps" onclick="push()">"How do I make a HTTP request in Javascript?"</div>
-                </div>
-                <div class="hero-container">
-                    <div class="examp box box1">
-                        <div class="bolt icon"><i class="fa-solid fa-bolt"></i></div>
-                        <div style="font-size: 18px;">Capabilities</div>
-                    </div>
-                    <div class="cont1 box">
-                        Remembers what user said earlier in the conversation
-                    </div>
-                    <div class="cont2 box">Allows user to provide follow-up corrections</div>
-                    <div class="cont3 box">Trained to decline inappropriate requests</div>
-                </div>
-                <div class="hero-container">
-                    <div class="examp box box1">
-                        <div class="limi icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
-                        <div style="font-size: 18px;">Limitations</div>
-                    </div>
-                    <div class="cont1 box">
-                        May occasionally generate incorrect information
-                    </div>
-                    <div class="cont2 boxs">May occasionally produce harmful instructions or biased content</div>
-                    <div class="cont3 box">Limited knowledge of world and events after 2021</div>
-                </div>
-            </div>
-
-            <div class="main-right-bottom">
-                <div class="input-cont">
-                    <input type="text" class="input" id="input" placeholder="Send a message.">
-                    <div class="enter-button"><i class="material-icons">send</i></div>
-                </div>
-                <div class="end">Free Research Preview. ChatGFT may produce inaccurate information about people, places,
-                    or facts. <a href="./">ChatGFT May 24 Version</a></div>
-            </div>
-        </div>
-    </div>
-
 
     <script src="./app.js"></script>
 </body>
