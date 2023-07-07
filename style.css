@@ -5,6 +5,7 @@
     font-family:sans-serif;
     color: #ECECF1;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .page-container {
@@ -176,6 +177,10 @@ h1 {
     background-color: #43444b;
     padding: 12px;
     border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .cont1:hover, .cont2:hover, .cont3:hover {
@@ -226,5 +231,20 @@ input:focus {
 .end {
     font-size: 12px;
     padding: 10px 0px;
+    text-align: center;
 
+}
+
+@media (max-width:1070px) {
+    .box, .box1, .boxs{
+        width: 180px;
+    }
+
+    .main-right-container {
+        width: 600px;
+    }
+
+    .input {
+        width: 540px;
+    }
 }
