@@ -235,7 +235,7 @@ input:focus {
 
 }
 
-@media (max-width:1070px) {
+@media (max-width: 1070px) {
     .box, .box1, .boxs{
         width: 180px;
     }
@@ -246,5 +246,19 @@ input:focus {
 
     .input {
         width: 540px;
+    }
+}
+
+@media (max-width: 890px) {
+    .right-main {
+        width: 100%;
+    }
+
+    .left-main {
+        width: 0px;
+    }
+
+    .box, .box1, .boxs{
+        width: 220px;
     }
 }
