@@ -261,4 +261,8 @@ input:focus {
     .box, .box1, .boxs{
         width: 220px;
     }
+
+    .input {
+        width: 640px;
+    }
 }
